@@ -44,9 +44,11 @@
 		* kubectl get nodes
 			 * Helps to get all nodes
 * # How to set a clustor in a machine?
+	* Normally if we want to run K8s cluster, we have to install required components in Master Node (kubelet-apiserver, controller, etcd,...) as well as Worker Node (Container Runtime - to run an application, kubelet)
  * ## minikube
- 	
+ 	* It is a predifined all above components in a single machine and provide a single node K8S cluster. And it is available as a image.
  * ## kubeadm
+ 	* Do set up multi cluster K8S node in a machine
  * ## microK8s
 		
 
