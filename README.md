@@ -33,7 +33,8 @@
 	### Master Node:
 	* It is nothing but a Node on which K8S installed on it and marked as Master.
 	<img width="442" alt="image" src="https://user-images.githubusercontent.com/10528013/194047462-635e4c87-47ae-4991-a8a2-fcb7608a4f85.png">
-	### Kubectl: - Kube command line tool / Kubecontrol:
+	
+	* ### Kubectl: - Kube command line tool / Kubecontrol:
 	* kubectl run application_name 
 	 * helps to deploy the application on cluster
 	* kubectl cluster-info
