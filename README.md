@@ -25,13 +25,15 @@
 	* High availability
 	* Scale up & scale down
 * # Architecture:
-	### Node: (Miniors)
+	### Worker Node: (Miniors)
 	* It is a machine on which K8S installed on it.  Node may be a physical Machine / Virtual Machine.
 	* Our application runs on this
+	* Kubelet works in each node
 	### Cluster:
 	* It has more than 1 node and group together
 	### Master Node:
 	* It is nothing but a Node on which K8S installed on it and marked as Master.
+	* kube-apiserver runs in the master node
 	<img width="442" alt="image" src="https://user-images.githubusercontent.com/10528013/194047462-635e4c87-47ae-4991-a8a2-fcb7608a4f85.png">
 	
 	* ### Kubectl: - Kube command line tool / Kubecontrol:
@@ -41,7 +43,7 @@
 	 		* Helps to find cluster info
 		* kubectl get nodes
 			 * Helps to get all nodes
-	 
+		
 
 
 
