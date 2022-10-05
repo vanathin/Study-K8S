@@ -32,4 +32,4 @@ OverView:
 			§ It has more than 1 node and group together
 		○ Master Node:
 			§ It is nothing but a Node on which K8S installed on it and marked as Master.
-Manages all ![image](https://user-images.githubusercontent.com/10528013/193983619-abc1d11b-f1a9-4a46-a742-ca8581749e10.png)
+
