@@ -12,18 +12,18 @@
 * # Image:
  * Package of application which have required software and dependency to run a application
 * # Orchestration
-		○ Make a connectivity between the container
-		○ Scale up and scale down the container based on the load
-		○ Monitoring container health & performance
-		○ Above mentioned process automatically deploying and managing is known as Orchestration
-		○ Tools Available:
-			§ Docker swarm
-			§ Kubernetes - Google
-			§ MESOS - Apache
-	○ Kubernetes:
-		○ Supported by all cloud service providers such as Azure, AWS, 
-		○ High availability
-		○ Scale up & scale down
+	* Make a connectivity between the container
+	* Scale up and scale down the container based on the load
+	* Monitoring container health & performance
+	* Above mentioned process automatically deploying and managing is known as Orchestration
+	* ### Tools Available:
+		* Docker swarm
+		* Kubernetes - Google
+		* MESOS - Apache
+* # Kubernetes:
+	* Supported by all cloud service providers such as Azure, AWS, 
+	* High availability
+	* Scale up & scale down
 	○ Architecture:
 		○ Node: (Miniors)
 			§ It is a machine on which K8S installed on it.  Node may be a physical Machine / Virtual Machine.
