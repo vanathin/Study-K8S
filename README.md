@@ -29,9 +29,9 @@
 	* It is a machine on which K8S installed on it.  Node may be a physical Machine / Virtual Machine.
 	* Our application runs on this
 	### Cluster:
-		* It has more than 1 node and group together
+	* It has more than 1 node and group together
 	### Master Node:
-		* It is nothing but a Node on which K8S installed on it and marked as Master.
+	* It is nothing but a Node on which K8S installed on it and marked as Master.
 
 
 
