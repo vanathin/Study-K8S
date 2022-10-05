@@ -8,6 +8,10 @@
   * Container is light weight
   * ## Fundamentals:
    * Compatibility with any OS
-   * Less time to set up docker environment for new developer
+   * Less time to set up docker environment for new developer.
+* # Image:
+ * Package of application which have required software and dependency to run a application
+
+
 
 
