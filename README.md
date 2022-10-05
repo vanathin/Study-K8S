@@ -33,6 +33,7 @@
 	### Master Node:
 	* It is nothing but a Node on which K8S installed on it and marked as Master.
 
+<img width="356" alt="image" src="https://user-images.githubusercontent.com/10528013/194044819-645c8266-c9c2-4083-9792-96c6171fc114.png">
 
 
 
