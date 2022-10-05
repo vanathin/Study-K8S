@@ -35,12 +35,12 @@
 	<img width="442" alt="image" src="https://user-images.githubusercontent.com/10528013/194047462-635e4c87-47ae-4991-a8a2-fcb7608a4f85.png">
 	
 	* ### Kubectl: - Kube command line tool / Kubecontrol:
-	* kubectl run application_name 
-	 * helps to deploy the application on cluster
-	* kubectl cluster-info
-	 * Helps to find cluster info
-	* kubectl get nodes
-	 * Helps to get all nodes
+		* kubectl run application_name 
+	 		* helps to deploy the application on cluster
+		* kubectl cluster-info
+	 		* Helps to find cluster info
+		* kubectl get nodes
+			 * Helps to get all nodes
 	 
 
 
