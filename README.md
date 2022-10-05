@@ -25,12 +25,12 @@
 	* High availability
 	* Scale up & scale down
 * # Architecture:
-	# Node: (Miniors)
+	### Node: (Miniors)
 		* It is a machine on which K8S installed on it.  Node may be a physical Machine / Virtual Machine.
 		* Our application runs on this
-	# Cluster:
+	### Cluster:
 		* It has more than 1 node and group together
-	# Master Node:
+	### Master Node:
 		* It is nothing but a Node on which K8S installed on it and marked as Master.
 
 
