@@ -43,6 +43,11 @@
 	 		* Helps to find cluster info
 		* kubectl get nodes
 			 * Helps to get all nodes
+* # How to set a clustor in a machine?
+ * ## minikube
+ 	
+ * ## kubeadm
+ * ## microK8s
 		
 
 
