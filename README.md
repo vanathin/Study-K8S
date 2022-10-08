@@ -50,6 +50,9 @@
  * ## kubeadm
  	* Do set up multi cluster K8S node in a machine
  * ## microK8s
+ * ## Installation:
+ 	* Kubectl
+	* Minikube
 		
 
 
