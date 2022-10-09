@@ -57,8 +57,13 @@
 	* Continer archestration platform
 	* ### Pods:
 		* Pods are a kubernetes object.
-		* Container is not deployed seperately in K8S clustor node
-		* In each node, pod will be created which will be 
+		* Container is not deployed seperately in K8S clustor node. which will be encapsulated with K8S object called POD.
+		* Each POD has only one container will be deployed. And we can deploy more than one container but this is not a standard.
+		* Each POD will have unique IP address.
+		* ###.yml file structure
+			Maintain equal space and dont use tab. After : give one space
+			
+			
 
 
 		
