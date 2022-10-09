@@ -53,6 +53,14 @@
  * ## Installation:
  	* Kubectl
 	* Minikube
+* ## Kubernetes:
+	* Continer archestration platform
+	* ### Pods:
+		* Pods are a kubernetes object.
+		* Container is not deployed seperately in K8S clustor node
+		* In each node, pod will be created which will be 
+
+
 		
 
 
