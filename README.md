@@ -73,8 +73,26 @@
 	* ### Command
 		* ## Create Pod / Replication controller / replica set
 			kubectl create -f fileName of Pod / replica controller / replica set
-		* See the created pod / Replication controller / replica set
+		* ## See the created pod / Replication controller / replica set
 			kubectl get pods / replicaset / replicationcontroller
+		* ## selectors vs labels
+			* ## replicaset-definition.yml
+			 spec:
+			   replicas: 3
+			   selector:
+			     matchLabels:
+			       tier: front-end
+			   template:
+			    //Define pod info
+			* ## pod-definition.yml
+			   metadata:
+			     name: name of the pod / replica set / replication controller
+			     labels:
+			       tier:  front-end
+			       
+			 With the help of selector & labels replica set monitor group of pod instances ( manages the group of similar pod instances).
+			 
+			 
 			
 			
 			
