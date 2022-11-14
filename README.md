@@ -76,7 +76,7 @@
 		* ## See the created pod / Replication controller / replica set
 			kubectl get pods / replicaset / replicationcontroller
 		* ## selectors vs labels
-			* replicaset-definition.yml
+			replicaset-definition.yml
 			 spec:
 			   replicas: 3
 			   selector:
@@ -84,7 +84,7 @@
 			       tier: front-end
 			   template:
 			    //Define pod info
-			* pod-definition.yml
+			pod-definition.yml
 			   metadata:
 			     name: name of the pod / replica set / replication controller
 			     labels:
