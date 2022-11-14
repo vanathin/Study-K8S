@@ -61,6 +61,9 @@
 		* Each POD has only one container will be deployed. And we can deploy more than one container but this is not a standard.
 		* Each POD will have unique IP address.
 		* ### yml file structure in K8S
+		### Sample pod-definition.yml file
+		* <img width="657" alt="image" src="https://user-images.githubusercontent.com/10528013/201673909-46a7d3f2-4625-4d98-b03a-d07660c8b086.png">
+
 			
 			
 			
