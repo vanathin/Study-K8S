@@ -61,9 +61,20 @@
 		* Each POD has only one container will be deployed. And we can deploy more than one container but this is not a standard.
 		* Each POD will have unique IP address.
 		* ### yml file structure in K8S
-		### Sample pod-definition.yml file
+		* ### Sample pod-definition.yml file
 		* <img width="657" alt="image" src="https://user-images.githubusercontent.com/10528013/201673909-46a7d3f2-4625-4d98-b03a-d07660c8b086.png">
-
+	* ### Replication Controller vs Replica Set:
+		* Both used to manage the POD life cycle
+		* Based on replicas defined in the file, replication controller/Replica set make sure pods running always
+		* Replica set - newest one. Replication controller - older one
+	* ### Replication Controller / Replica set:
+		* Sample file
+		* <img width="764" alt="image" src="https://user-images.githubusercontent.com/10528013/201679528-0f1d378d-8d16-4fff-8ca4-9784a0dd8b1c.png">
+	* ### Command
+		* ## Create Pod / Replication controller / replica set
+			kubectl create -f fileName of Pod / replica controller / replica set
+		* See the created pod / Replication controller / replica set
+			kubectl get pods / replicaset / replicationcontroller
 			
 			
 			
