@@ -75,6 +75,11 @@
 			kubectl create -f fileName of Pod / replica controller / replica set
 		* ## See the created pod / Replication controller / replica set
 			kubectl get pods / replicaset / replicationcontroller
+		* ## Scale the pod using command
+			kubectl scale --replica = 6 -f replicaset-definition.yml
+			kubectl replace -f -f replicaset-definition.yml - Using replicaset-definition.ymls file change
+		* ## Delete replicaset
+			kubectl delete replicaset replicaset_name
 		* ## selectors vs labels
 			replicaset-definition.yml
 			 spec:
