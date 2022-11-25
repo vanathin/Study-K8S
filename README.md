@@ -96,6 +96,7 @@
 			       tier:  front-end
 			       
 			 With the help of selector & labels replica set monitor group of pod instances ( manages the group of similar pod instances).
+* # Commands:
 			 
 			 
 			
