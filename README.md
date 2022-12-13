@@ -87,9 +87,7 @@
 				kubectl replace -f replicaset-definition.yml
 			* ### Through command line  - without modifying replicaset-definition file
 				* ### kubectl scale --replicas=6 -f replicaset-definition.yml
-				* ### kubectl scale --replicas=6 replicaset frontend (replicaset name)
-			kubectl scale --replica = 6 -f replicaset-definition.yml
-			kubectl replace -f -f replicaset-definition.yml - Using replicaset-definition.ymls file change
+				* ### kubectl scale --replicas=6 replicaset frontend (replicaset_name). Here type=replicaset and name=frontend
 		* ## Delete replicaset
 			kubectl delete replicaset replicaset_name
 		* ## selectors vs labels
