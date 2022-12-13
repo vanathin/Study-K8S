@@ -69,7 +69,10 @@
 		* Replica set - newest one. Replication controller - older one
 	* ### Replication Controller / Replica set:
 		* Sample file
+		* Selector section used to monitor existing running pod
 		* <img width="764" alt="image" src="https://user-images.githubusercontent.com/10528013/201679528-0f1d378d-8d16-4fff-8ca4-9784a0dd8b1c.png">
+		* <img width="479" alt="image" src="https://user-images.githubusercontent.com/10528013/207301912-4f3f37ce-c3c5-4fd8-a663-e22a95f9b48c.png">
+
 	* ### Command
 		* ## Create Pod / Replication controller / replica set
 			kubectl create -f fileName of Pod / replica controller / replica set
