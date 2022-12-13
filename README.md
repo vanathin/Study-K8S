@@ -82,7 +82,7 @@
 			kubectl get pods / (replicaset / replicationcontroller)
 		* ## Scale the pod using command
 			3 ways we can update the replicas
-			## directly update the replicaset-definition.yml file
+			* ### directly update the replicaset-definition.yml file
 				replicas : 6 ( EX: previously it was 4 )
 			##
 			kubectl scale --replica = 6 -f replicaset-definition.yml
