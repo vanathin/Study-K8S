@@ -84,7 +84,10 @@
 			3 ways we can update the replicas
 			* ### directly update the replicaset-definition.yml file
 				replicas : 6 ( EX: previously it was 4 )
-			##
+				kubectl replace -f replicaset-definition.yml
+			* ### Through command line  - without modifying replicaset-definition file
+				* ### kubectl scale --replicas=6 -f replicaset-definition.yml
+				* ### kubectl scale --replicas=6 replicaset frontend (replicaset name)
 			kubectl scale --replica = 6 -f replicaset-definition.yml
 			kubectl replace -f -f replicaset-definition.yml - Using replicaset-definition.ymls file change
 		* ## Delete replicaset
