@@ -88,8 +88,9 @@
 			* ### Through command line  - without modifying replicaset-definition file
 				* ### kubectl scale --replicas=6 -f replicaset-definition.yml
 				* ### kubectl scale --replicas=6 replicaset frontend (replicaset_name). Here type=replicaset and name=frontend
-		* ## Delete replicaset
+		* ## Delete replicaset / pod
 			kubectl delete replicaset replicaset_name
+			kubectl delete pod pod_name
 		* ## selectors vs labels
 			replicaset-definition.yml
 			 spec:
