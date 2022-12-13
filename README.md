@@ -69,16 +69,22 @@
 		* Replica set - newest one. Replication controller - older one
 	* ### Replication Controller / Replica set:
 		* Sample file
-		* Selector section used to monitor existing running pod
 		* <img width="764" alt="image" src="https://user-images.githubusercontent.com/10528013/201679528-0f1d378d-8d16-4fff-8ca4-9784a0dd8b1c.png">
 		* <img width="479" alt="image" src="https://user-images.githubusercontent.com/10528013/207301912-4f3f37ce-c3c5-4fd8-a663-e22a95f9b48c.png">
+		* Selector section used to group the existing running pod using by their labels.
 
 	* ### Command
-		* ## Create Pod / Replication controller / replica set
-			kubectl create -f fileName of Pod / replica controller / replica set
-		* ## See the created pod / Replication controller / replica set
-			kubectl get pods / replicaset / replicationcontroller
+		* ## Create Pod / (Replication controller / replica set)
+			kubectl create -f fileName of Pod / (replica controller / replica set)
+			kubectl create -f pod-definition.yml
+			kubectl create -f replicaset-definition.yml
+		* ## See the created pod / (Replication controller / replica set)
+			kubectl get pods / (replicaset / replicationcontroller)
 		* ## Scale the pod using command
+			3 ways we can update the replicas
+			## directly update the replicaset-definition.yml file
+				replicas : 6 ( EX: previously it was 4 )
+			##
 			kubectl scale --replica = 6 -f replicaset-definition.yml
 			kubectl replace -f -f replicaset-definition.yml - Using replicaset-definition.ymls file change
 		* ## Delete replicaset
