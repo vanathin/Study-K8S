@@ -108,10 +108,25 @@
  	* ### Deployment:
  	 	* kind = Deployment
  	 	* Maintain Deployment activities such as maintain rollout, versioning, etc
- 	 	* Rollout : 
+ 	 	* Rollout & Revision: 
  	 		* each deployment trigger rollout which will create new deployment revision EX: revision 1
- 	 		
- 	 	* 	
+ 	 		* When we want to update the image version, new deployment takes place where it triggers new rollout which will create new  	
+ 	 		  revision EX: revision 2
+ 	 	* Recreate:
+ 	 		* Deployment action first scal down the exsiting running instance and scale up the new instances
+ 	 	* RollingUpdate:
+ 	 		* Deployment action scale down exisitng instance one at a time and scale up the new instances.
+ 	 		* This is default update
+ 	 	* Upgrades:
+ 	 		* Deployment object first create replica set (ex: replicaset 1) which will create specified no of containers on it
+ 	 		* When next deployment happens, it creates a new replica set (ex: replicaset 2) and scale down existing instances one at a time 
+ 	 		  in the replica set 1 and scale up new containers in newly created replica set 2.
+		* Rollback:
+			* Something is wrong in the new upgrades, we should do roll back the current deployment. It scales down the containers from 
+			  replica set 2 and scale up the containers from the replica set 1.
+			* Command:
+				kubectl rollout undo deployment_name
+				
  		
 			       
 			 With the help of selector & labels replica set monitor group of pod instances ( manages the group of similar pod instances).
