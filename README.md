@@ -64,7 +64,7 @@
 		* ### Sample pod-definition.yml file
 		* <img width="657" alt="image" src="https://user-images.githubusercontent.com/10528013/201673909-46a7d3f2-4625-4d98-b03a-d07660c8b086.png">
 	* ### Replication Controller vs Replica Set:
-		* Both used to manage the POD life cycle
+		* Used to manage the POD life cycle which make sure that specified (replicas ) no of pod is runing 
 		* Based on replicas defined in the file, replication controller/Replica set make sure pods running always
 		* Replica set - newest one. Replication controller - older one
 	* ### Replication Controller / Replica set:
@@ -105,6 +105,14 @@
 			     name: name of the pod / replica set / replication controller
 			     labels:
 			       tier:  front-end
+ 	* ### Deployment:
+ 	 	* kind = Deployment
+ 	 	* Maintain Deployment activities such as maintain rollout, versioning, etc
+ 	 	* Rollout : 
+ 	 		* each deployment trigger rollout which will create new deployment revision EX: revision 1
+ 	 		
+ 	 	* 	
+ 		
 			       
 			 With the help of selector & labels replica set monitor group of pod instances ( manages the group of similar pod instances).
 * # Commands:
