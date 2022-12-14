@@ -78,8 +78,15 @@
 			kubectl create -f fileName of Pod / (replica controller / replica set)
 			kubectl create -f pod-definition.yml
 			kubectl create -f replicaset-definition.yml
+			kubectl create -f deployment-definition.yml
 		* ## See the created pod / (Replication controller / replica set)
-			kubectl get pods / (replicaset / replicationcontroller)
+			kubectl get pods / (replicaset / replicationcontroller - rs) / deployments
+		* ## Get Pod / replica set / deployment details more
+			kubectl describe pod/replicaSet/deployment pod_name/replicaSet_name/deployment_name
+		* ## Update the defintion file
+			kubectl apply -f deployment-definition.yml/replicaset-definition.yml/pod-definition.yml
+		* ## RollOut
+			kubectl rollout undo/status/history deployment_name
 		* ## Scale the pod using command
 			3 ways we can update the replicas
 			* ### directly update the replicaset-definition.yml file
@@ -126,6 +133,7 @@
 			  replica set 2 and scale up the containers from the replica set 1.
 			* Command:
 				kubectl rollout undo deployment_name
+* # Network:
 				
  		
 			       
