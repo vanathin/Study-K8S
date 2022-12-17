@@ -72,6 +72,7 @@
 		* <img width="764" alt="image" src="https://user-images.githubusercontent.com/10528013/201679528-0f1d378d-8d16-4fff-8ca4-9784a0dd8b1c.png">
 		* <img width="479" alt="image" src="https://user-images.githubusercontent.com/10528013/207301912-4f3f37ce-c3c5-4fd8-a663-e22a95f9b48c.png">
 		* Selector section used to group the existing running pod using by their labels.
+		* With the help of selector & labels replica set monitor group of pod instances ( manages the group of similar pod instances).
 
 	* ### Command
 		* ## Create Pod / (Replication controller / replica set)
@@ -144,11 +145,7 @@
 		* Always Keep service name as a container name.
 		* ![image](https://user-images.githubusercontent.com/10528013/208247508-9ae047c8-d66e-4cb6-8693-d19261a2bec3.png)
 		* <img width="650" alt="image" src="https://user-images.githubusercontent.com/10528013/208247585-f1af8965-9fa2-484b-8de0-65851119cf3b.png">
-		
-				
- 		
-			       
-			 With the help of selector & labels replica set monitor group of pod instances ( manages the group of similar pod instances).
+				 
 * # Commands:
 			 
 			 
