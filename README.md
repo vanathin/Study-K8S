@@ -114,6 +114,7 @@
 			       tier:  front-end
  	* ### Deployment:
  	 	* kind = Deployment
+ 	 	* deployment-definition file is similar to replica set.
  	 	* Maintain Deployment activities such as maintain rollout, versioning, etc
  	 	* Rollout & Revision: 
  	 		* each deployment trigger rollout which will create new deployment revision EX: revision 1
@@ -133,9 +134,17 @@
 			  replica set 2 and scale up the containers from the replica set 1.
 			* Command:
 				kubectl rollout undo deployment_name
-* # Network:
-* # Service:
-	* 
+	* # Network:
+	* # Service:
+		* Helps to make communication between pods and external services.
+		* Type of services:
+			* NodePort - external communication 
+			* ClusterIp - internal communication ( cluster )
+			* LoadBalancer - Act as a load balancer.
+		* Always Keep service name as a container name.
+		* ![image](https://user-images.githubusercontent.com/10528013/208247508-9ae047c8-d66e-4cb6-8693-d19261a2bec3.png)
+		* <img width="650" alt="image" src="https://user-images.githubusercontent.com/10528013/208247585-f1af8965-9fa2-484b-8de0-65851119cf3b.png">
+		
 				
  		
 			       
