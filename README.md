@@ -143,7 +143,7 @@
 			* ClusterIp - internal communication ( cluster )
 			* LoadBalancer - Act as a load balancer.
 		* Always Keep service name as a container name.
-		* ![image](https://user-images.githubusercontent.com/10528013/208247508-9ae047c8-d66e-4cb6-8693-d19261a2bec3.png)
+		* <img width="379" alt="image" src="https://user-images.githubusercontent.com/10528013/208247742-4f17cbd9-c128-4153-9441-e4e7ada0cf70.png">
 		* <img width="650" alt="image" src="https://user-images.githubusercontent.com/10528013/208247585-f1af8965-9fa2-484b-8de0-65851119cf3b.png">
 				 
 * # Commands:
