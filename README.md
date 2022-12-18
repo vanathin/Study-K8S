@@ -146,7 +146,21 @@
 		* <img width="379" alt="image" src="https://user-images.githubusercontent.com/10528013/208247742-4f17cbd9-c128-4153-9441-e4e7ada0cf70.png">
 		* <img width="650" alt="image" src="https://user-images.githubusercontent.com/10528013/208247585-f1af8965-9fa2-484b-8de0-65851119cf3b.png">
 				 
-* # Commands:
+	* # Commands: kubectl - this is cmd
+		* kubectl cluster-info
+		* kubectl get nodes
+		* kubectl run 
+		* POD deployment:
+			* kubectl run pod_name --image=image
+			* kubectl get pods
+			* kubectl descripe pod pod_name -> gives more details about pod
+			* kubectl delete pod pod_name
+			* kubectl get pods -o wide -> gives ip address of the pod
+			* kubectl logs pod_name -> pod is having only one container
+			* kubectl logs pod_name -c container_name -> pod is having more than 1 container name
+	* # Minikube: - cluster set up
+		* minikube start --driver=docker
+		* minikube status
 			 
 			 
 			
