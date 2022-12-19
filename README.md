@@ -150,14 +150,30 @@
 		* kubectl cluster-info
 		* kubectl get nodes
 		* kubectl run 
+		* kubectl create -f pod-definition.yml
 		* POD deployment:
 			* kubectl run pod_name --image=image
+			* kubectl create -f pod-definition.yml
+			* kubectl apply -f pod-definition.yml - apply the changes
 			* kubectl get pods
 			* kubectl descripe pod pod_name -> gives more details about pod
-			* kubectl delete pod pod_name
+			* kubectl delete pod pod_name1 pod_name2
 			* kubectl get pods -o wide -> gives ip address of the pod
 			* kubectl logs pod_name -> pod is having only one container
+			* ubectl run redis --image=redis123 --dry-run=client -o yaml > redis-definition.yaml
 			* kubectl logs pod_name -c container_name -> pod is having more than 1 container name
+		* Replica set deployment:
+			* kubectl run re_name --image=image
+			* kubectl get replicaset
+			* kubectl delete replicaset replicaset_name -> delete all the pods under this replicaset
+			* kubectl explain replicaset | grep VERSION
+			* kubectl edit replicaset replicaset_name -> To edit replicaset definition file
+			* kubect scale --repicas=2 rs rs_name
+		* Deployment:
+			* kubectl create -f deployment-definiton.yml
+			* kubect get all -> gives details about deployment, replicaset, pod
+		* Service:
+			* minikube service service_name --url
 	* # Minikube: - cluster set up
 		* minikube start --driver=docker
 		* minikube status
