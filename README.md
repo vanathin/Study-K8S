@@ -10,7 +10,7 @@
    * Compatibility with any OS
    * Less time to set up docker environment for new developer.
 * # Image:
- * Package of application which have required software and dependency to run a application
+  * Package of application which have required software and dependency to run a application
 * # Orchestration
 	* Make a connectivity between the container
 	* Scale up and scale down the container based on the load
@@ -21,9 +21,9 @@
 		* Kubernetes - Google
 		* MESOS - Apache
 * # Kubernetes:
-	* Supported by all cloud service providers such as Azure, AWS, 
+	* Supported by all cloud service providers such as Azure, AWS, GCP.
 	* High availability
-	* Scale up & scale down
+	* Scale out & scale in
 * # Architecture:
 	### Worker Node: (Miniors)
 	* It is a machine on which K8S installed on it.  Node may be a physical Machine / Virtual Machine.
